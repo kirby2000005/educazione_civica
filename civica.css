@@ -1,0 +1,160 @@
+#contenitore {background-color: #9bc5b3;}
+
+
+body {font-family: montserrat;
+      color: navy;}
+	  
+#main {display: flex;
+	   margin-bottom: 0;}
+
+#header {background-color: #bc98eb;
+		 height: 75px;
+		 line-height: 75px;}
+		 
+.titolo {text-transform: uppercase;
+		 text-align: center;
+		 font-style: italic;
+		 font-size: 50px;}
+
+#navigazione {background-color: #8bd789;
+              float: left;
+			  width: 20%;
+			  min-width: 200px;}
+			  
+.menu a:link {color: white;
+              text-decoration: none;
+			  padding: 5px;
+			  display: block;
+			  text-align: center;
+			  font-weight: bold;}
+		
+
+.menu  a:visited	{color: white;
+                     text-decoration: none;
+				     padding: 5px;
+				     display: block;
+				     text-align: center;
+					 font-weight: bold;}
+			
+.menu a:hover {background-color: white;
+	           text-decoration: none;
+	           color: teal;
+		       border: 2px dashed lightblue;
+		       border-radius: 5px;
+			   font-weight: bold;
+			   font-style:normal;}
+		 
+.menu ul {list-style-type:none;
+          text-align: center;
+		  margin-right: 20px;
+		  font-weight: bold;}
+
+.menu li {padding: 5px;
+          text-transform: capitalize;
+		  text-align: center;
+		  margin-right: 20px;
+		  font-weight: bold;}
+
+#contenuto{float: right;
+           width: 80%;
+		   background-color: #ECFAF5;}
+		   
+h1 {font-family: lexend;
+    text-align: center;
+	text-transform: uppercase;
+	font-size: 35px;}
+	
+	
+hr {background-color: #bc98eb;
+    height: 3px;
+	width: 70%;}
+
+h2 {font-family: georgia;
+    font-style: italic;
+	font-size: 30px;
+	text-indent: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #5775d6;}
+	
+h3 {text-indent: 15px;
+    color:#00CED1;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: georgia;
+	letter-spacing: 2px;}
+	
+h4 {text-indent: 15px;
+    color:#8a4f7d;
+	font-weight: bold;
+	text-transform: uppercase;}
+
+p {text-align: justify;
+   text-indent: 15px;
+   margin-left: 10px;
+   margin-right: 10px;}
+		   
+.destra {float: right;
+         margin-right: 10px;
+		 margin-left: 10px;
+		 margin-bottom: 10px;}
+		 
+img {margin-left: 10px;
+     float: left;
+	 margin-right: 10px;
+	 margin-bottom: 10px;}
+		
+.evidenziato {color: #ADD8E6;
+              font-weight: bold;}
+			  
+.evidenziato4 {color: #1e765c;
+               font-weight: bold;}
+			   
+.evidenziato3 {color: #bdee98;
+               font-weight: bold;}
+			   
+.evidenziato2 {color: #b25fed;
+               font-weight: bold;}
+			  
+a:link, a:visited {color: #63dbb6;
+                   text-decoration: none;}
+				  
+a:hover {color: #5D3FD3;
+         background-color: #9FE2BF;
+		 font-style: italic;
+		 font-weight: bold;
+		 font-family: comfortaa;}
+
+.sinistra {float: left;
+           margin-left: 10px;
+		   margin-right: 10px;
+		   margin-bottom: 10px;}
+			
+.freccia {padding-left: 35px;}
+
+
+
+#footer {background-color: #9bc5b3;
+		 clear: both;}
+		 
+.fondo {text-align: center;
+        font-family: courier;}
+		
+		
+@media (max-width: 768px) {
+  #main {
+    flex-direction: column;
+  }
+
+  #navigazione, #contenuto {
+    width: 100%;
+  }
+
+  .titolo {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
